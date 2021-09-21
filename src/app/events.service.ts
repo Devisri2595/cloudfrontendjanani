@@ -6,9 +6,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class EventsService {
 
-  private _eventsUrl="http://localhost:3000/api/events";
+  private _eventsUrl="https://cloudbackend1.azurewebsites.net/api/events";
 
-  private _specialUrl="http://localhost:3000/api/special";
+  private _specialUrl="https://cloudbackend1.azurewebsites.net/api/special";
 
   constructor(private http:HttpClient) { }
 
